@@ -3,8 +3,15 @@ package com.automation.testcases;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BaseTest {
 
@@ -18,7 +25,7 @@ public class BaseTest {
 
     }
 
-    public void getCloudDriver(){
+    public void getCloudDriver() throws MalformedURLException {
         ChromeOptions browserOptions = new ChromeOptions();
         browserOptions.setPlatformName("Windows 11");
         browserOptions.setBrowserVersion("latest");
