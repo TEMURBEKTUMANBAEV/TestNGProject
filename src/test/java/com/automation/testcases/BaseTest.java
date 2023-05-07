@@ -23,7 +23,7 @@ public class BaseTest {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Where do you want to execute your test?");
-        String platform = sc.nextLine();
+        String platform = "Local";
         if (platform.equals("Local")){
             driver = getLocalDriver();
         } else {
