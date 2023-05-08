@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SoftAssertHardAssert {
+    
     @Test
     public void testSoftAssert(){
 
@@ -16,5 +17,6 @@ public class SoftAssertHardAssert {
         Assert.assertEquals("Test","Test");
         Assert.assertEquals("Devx","Devx");
         Assert.assertEquals(true,true);
+        System.out.println("Hard Assert Test Ends");
     }
 }
