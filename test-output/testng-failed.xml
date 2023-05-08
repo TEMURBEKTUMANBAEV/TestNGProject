@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="methods" name="Failed suite [Regression Test]" guice-stage="DEVELOPMENT" verbose="3">
-  <test thread-count="3" parallel="methods" name="LoginTest(failed)" verbose="3">
-    <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNGProject(failed)">
     <classes>
-      <class name="com.automation.testcases.LoginTest">
+      <class name="com.automation.testcases.DataDrivenTest">
         <methods>
-          <include name="setUp"/>
-          <include name="verifyUserCanResetPassword"/>
-          <include name="verifyUserCannotLoginWithInvalidCredentials"/>
-          <include name="cleanUp"/>
+          <include name="verifyLoginUnsuccessfulWithInvalidCredentials" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.automation.testcases.LoginTest -->
+      </class> <!-- com.automation.testcases.DataDrivenTest -->
     </classes>
-  </test> <!-- LoginTest(failed) -->
-  <test thread-count="3" parallel="methods" name="OtherTest(failed)" verbose="3">
-    <classes>
-      <class name="com.automation.testcases.CartPageTest">
-        <methods>
-          <include name="verifyUserCanChangeQuantityOfItem"/>
-          <include name="setUp"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- com.automation.testcases.CartPageTest -->
-    </classes>
-  </test> <!-- OtherTest(failed) -->
-</suite> <!-- Failed suite [Regression Test] -->
+  </test> <!-- TestNGProject(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

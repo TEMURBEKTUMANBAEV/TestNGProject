@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="TestNGProject(failed)">
     <classes>
-      <class name="com.automation.testcases.SoftAssertHardAssert">
+      <class name="com.automation.testcases.DataDrivenTest">
         <methods>
-          <include name="testSoftAssert"/>
+          <include name="verifyLoginUnsuccessfulWithInvalidCredentials" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.automation.testcases.SoftAssertHardAssert -->
+      </class> <!-- com.automation.testcases.DataDrivenTest -->
     </classes>
   </test> <!-- TestNGProject(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
