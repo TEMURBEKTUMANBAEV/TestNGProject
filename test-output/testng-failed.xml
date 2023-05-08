@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="TestNGProject(failed)">
     <classes>
-      <class name="com.automation.testcases.ExamplePriorityAndDependencyTest">
+      <class name="com.automation.testcases.SoftAssertHardAssert">
         <methods>
-          <include name="test4"/>
-          <include name="test2"/>
-          <include name="test5"/>
-          <include name="test3"/>
-          <include name="test1"/>
+          <include name="testSoftAssert"/>
         </methods>
-      </class> <!-- com.automation.testcases.ExamplePriorityAndDependencyTest -->
+      </class> <!-- com.automation.testcases.SoftAssertHardAssert -->
     </classes>
   </test> <!-- TestNGProject(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
