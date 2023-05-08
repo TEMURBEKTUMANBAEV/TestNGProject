@@ -9,7 +9,7 @@ public class LoginTest extends BaseTest{
     @Parameters("browser")
     public void verifyUserCanLogin(String browser) {
         System.out.println("verify login successful");
-        System.out.println("Opening browser..." + browser);
+        System.out.println("Opening browser " + browser);
     }
 
     @Test(groups = {"ChiragTest","WIPTest"})

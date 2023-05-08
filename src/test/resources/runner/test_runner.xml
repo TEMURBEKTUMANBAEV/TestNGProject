@@ -16,4 +16,5 @@
             <class name="com.automation.testcases.SearchFunctionalityTest"/>
         </classes>
     </test>
+    
 </suite>
