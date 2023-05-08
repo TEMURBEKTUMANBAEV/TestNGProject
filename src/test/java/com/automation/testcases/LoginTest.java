@@ -7,7 +7,7 @@ public class LoginTest extends BaseTest{
     @Test(groups = {"SmokeTest", "ChiragTest"})
     public void verifyUserCanLogin(String browser) {
         System.out.println("verify login successful");
-        System.out.println();
+        System.out.println("Opening browser..." + browser);
     }
 
     @Test(groups = {"ChiragTest","WIPTest"})
