@@ -1,5 +1,6 @@
 package com.automation.testcases;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SoftAssertHardAssert {
@@ -9,6 +10,11 @@ public class SoftAssertHardAssert {
     }
     @Test
     public void testHardAssert(){
-
+        Assert.assertEquals(2,2);
+        Assert.assertEquals("Chirag","Chirag");
+        Assert.assertEquals(10,10);
+        Assert.assertEquals("Test","Test");
+        Assert.assertEquals("Devx","Devx");
+        Assert.assertEquals(true,true);
     }
 }
