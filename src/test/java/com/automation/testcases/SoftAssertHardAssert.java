@@ -12,10 +12,10 @@ public class SoftAssertHardAssert {
         softAssert.assertEquals(2,2);
         softAssert.assertEquals("Chirag","Chriag");
         softAssert.assertEquals(10,10);
-        softAssert.assertEquals("Test","Test");
-        softAssert.assertEquals("Devx","Devx");
+        softAssert.assertEquals("Test","Tet");
+        softAssert.assertEquals("Devx","Dex");
         softAssert.assertEquals(true,true);
-        System.out.println("Hard Assert Test Ends");
+        System.out.println("Soft Assert Test Ends");
     }
 
     @Test
