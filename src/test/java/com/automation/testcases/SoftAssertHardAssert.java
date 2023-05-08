@@ -15,6 +15,7 @@ public class SoftAssertHardAssert {
         softAssert.assertEquals("Test","Tet");
         softAssert.assertEquals("Devx","Dex");
         softAssert.assertEquals(true,true);
+        softAssert.assertAll();
         System.out.println("Soft Assert Test Ends");
     }
 
