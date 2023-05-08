@@ -5,9 +5,9 @@ import org.testng.annotations.*;
 public class LoginTest extends BaseTest{
 
     @Test(groups = {"SmokeTest", "ChiragTest"})
-    public void verifyUserCanLogin() {
-
+    public void verifyUserCanLogin(String browser) {
         System.out.println("verify login successful");
+        System.out.println();
     }
 
     @Test(groups = {"ChiragTest","WIPTest"})
