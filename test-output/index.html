@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,22 @@
                     <div class="method-list-content passed suite-Default_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.automation.testcases.DataDrivenTest" class="method navigator-link" hash-for-method="verifyLoginSuccessfulWithValidCred">verifyLoginSuccessfulWithValidCred</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_Suite" title="com.automation.testcases.DataDrivenTest" class="method navigator-link" hash-for-method="verifyLoginUnsuccessfulWithInvalidCredentials">verifyLoginUnsuccessfulWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.automation.testcases.DataDrivenTest" class="method navigator-link" hash-for-method="verifyLoginUnsuccessfulWithInvalidCredentials2">verifyLoginUnsuccessfulWithInvalidCredentials2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="com.automation.testcases.DataDrivenTest" class="method navigator-link" hash-for-method="verifyLoginUnsuccessfulWithInvalidCredentials3">verifyLoginUnsuccessfulWithInvalidCredentials3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_Suite -->
@@ -126,9 +141,30 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="verifyLoginSuccessfulWithValidCred">
+                  </a> <!-- verifyLoginSuccessfulWithValidCred -->
+                  <span class="method-name">verifyLoginSuccessfulWithValidCred</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="verifyLoginUnsuccessfulWithInvalidCredentials">
                   </a> <!-- verifyLoginUnsuccessfulWithInvalidCredentials -->
                   <span class="method-name">verifyLoginUnsuccessfulWithInvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginUnsuccessfulWithInvalidCredentials2">
+                  </a> <!-- verifyLoginUnsuccessfulWithInvalidCredentials2 -->
+                  <span class="method-name">verifyLoginUnsuccessfulWithInvalidCredentials2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginUnsuccessfulWithInvalidCredentials3">
+                  </a> <!-- verifyLoginUnsuccessfulWithInvalidCredentials3 -->
+                  <span class="method-name">verifyLoginUnsuccessfulWithInvalidCredentials3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -145,11 +181,7 @@
 &lt;suite name=&quot;Default Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;TestNGProject&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.automation.testcases.DataDrivenTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;verifyLoginUnsuccessfulWithInvalidCredentials&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.automation.testcases.DataDrivenTest --&gt;
+      &lt;class name=&quot;com.automation.testcases.DataDrivenTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestNGProject --&gt;
 &lt;/suite&gt; &lt;!-- Default Suite --&gt;
@@ -189,16 +221,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyLoginUnsuccessfulWithInvalidCredentials')
+data.setCell(0, 1, 'verifyLoginSuccessfulWithValidCred')
 data.setCell(0, 2, 'com.automation.testcases.DataDrivenTest')
-data.setCell(0, 3, 7);
+data.setCell(0, 3, 6);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLoginUnsuccessfulWithInvalidCredentials')
+data.setCell(1, 2, 'com.automation.testcases.DataDrivenTest')
+data.setCell(1, 3, 2);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLoginUnsuccessfulWithInvalidCredentials2')
+data.setCell(2, 2, 'com.automation.testcases.DataDrivenTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLoginUnsuccessfulWithInvalidCredentials3')
+data.setCell(3, 2, 'com.automation.testcases.DataDrivenTest')
+data.setCell(3, 3, 0);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 ms</span>
+              <span class="suite-total-time">Total running time: 9 ms</span>
               <div id="times-div-Default_Suite">
               </div> <!-- times-div-Default_Suite -->
             </div> <!-- times-div -->
@@ -213,16 +257,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.automation.testcases.DataDrivenTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyLoginSuccessfulWithValidCred</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_Suite" class="panel">
@@ -233,8 +270,20 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.automation.testcases.DataDrivenTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">verifyLoginUnsuccessfulWithInvalidCredentials</span>
+                <span class="method-name">verifyLoginSuccessfulWithValidCred</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginUnsuccessfulWithInvalidCredentials</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginUnsuccessfulWithInvalidCredentials2</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginUnsuccessfulWithInvalidCredentials3</span>
+                <span class="method-start">15 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
