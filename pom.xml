@@ -13,6 +13,7 @@
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+         
     <dependencies>
              
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -36,7 +37,6 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.3.2</version>
         </dependency>
-
 
         <dependency>
             <groupId>org.webjars</groupId>
