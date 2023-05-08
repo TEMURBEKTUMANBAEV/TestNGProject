@@ -1,13 +1,11 @@
 package com.automation.testcases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ExamplePriorityAndDependencyTest {
     @Test(priority = -50)
     public void test1() {
         System.out.println("Test1");
-        Assert.fail();
     }
 
     @Test(dependsOnMethods = "test1")
