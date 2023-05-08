@@ -8,4 +8,7 @@ public class SoftAssertHardAssert {
 
     }
     @Test
+    public void testHardAssert(){
+
+    }
 }
