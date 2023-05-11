@@ -13,8 +13,9 @@ public class ReadDataFromExcel {
          XSSFSheet sheet = workbook.getSheetAt(0);
         for(int i=0; i < sheet.getPhysicalNumberOfRows(); i++){
             XSSFRow row = sheet.getRow(i);
-            XSSFCell cell   =   row.getCell(0);
-            System.out.println(cell.getStringCellValue());
+            XSSFCell column1   =   row.getCell(0);
+            XSSFCell column2   =   row.getCell(1);
+            System.out.println(column1.getStringCellValue()+ "    "+column2.getStringCellValue());
         }
     }
 }

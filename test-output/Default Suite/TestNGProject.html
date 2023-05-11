@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TestNGProject</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 10 11:02:37 MSK 2023</td>
+<td>Started on:</td><td>Thu May 11 22:59:27 MSK 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (63 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (835 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,65 +76,60 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.automation.testcases.CalculatorTest.testValidDiv()'><b>testValidDiv</b><br>Test class: com.automation.testcases.CalculatorTest<br>Parameters: 10, 2, 5</td>
+<td title='com.automation.testcases.DataDrivenTestWithExcel.verifyLoginSuccessfulWithValidCred()'><b>verifyLoginSuccessfulWithValidCred</b><br>Test class: com.automation.testcases.DataDrivenTestWithExcel</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.CalculatorTest@15b204a1</td></tr>
+<td>com.automation.testcases.DataDrivenTestWithExcel@33afa13b</td></tr>
 <tr>
-<td title='com.automation.testcases.CalculatorTest.testValidDiv()'><b>testValidDiv</b><br>Test class: com.automation.testcases.CalculatorTest<br>Parameters: 0, 1, 0</td>
+<td title='com.automation.testcases.DataDrivenTestWithExcel.verifyLoginUnsuccessfulWithInvalidCredentials()'><b>verifyLoginUnsuccessfulWithInvalidCredentials</b><br>Test class: com.automation.testcases.DataDrivenTestWithExcel<br>Parameters: Dana, Dana</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.CalculatorTest@15b204a1</td></tr>
+<td>com.automation.testcases.DataDrivenTestWithExcel@33afa13b</td></tr>
 <tr>
-<td title='com.automation.testcases.CalculatorTest.testValidDiv()'><b>testValidDiv</b><br>Test class: com.automation.testcases.CalculatorTest<br>Parameters: 10, 3, 3.333</td>
+<td title='com.automation.testcases.DataDrivenTestWithExcel.verifyLoginUnsuccessfulWithInvalidCredentials()'><b>verifyLoginUnsuccessfulWithInvalidCredentials</b><br>Test class: com.automation.testcases.DataDrivenTestWithExcel<br>Parameters: Mustafa, Everyone</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.CalculatorTest@15b204a1</td></tr>
+<td>com.automation.testcases.DataDrivenTestWithExcel@33afa13b</td></tr>
 <tr>
-<td title='com.automation.testcases.CalculatorTest.testValidDiv()'><b>testValidDiv</b><br>Test class: com.automation.testcases.CalculatorTest<br>Parameters: -10, 2, -5</td>
+<td title='com.automation.testcases.DataDrivenTestWithExcel.verifyLoginUnsuccessfulWithInvalidCredentials()'><b>verifyLoginUnsuccessfulWithInvalidCredentials</b><br>Test class: com.automation.testcases.DataDrivenTestWithExcel<br>Parameters: Milana, Tam</td>
 <td></td>
 <td>0</td>
-<td>com.automation.testcases.CalculatorTest@15b204a1</td></tr>
+<td>com.automation.testcases.DataDrivenTestWithExcel@33afa13b</td></tr>
 <tr>
-<td title='com.automation.testcases.CalculatorTest.testInvalidDiv()'><b>testInvalidDiv</b><br>Test class: com.automation.testcases.CalculatorTest</td>
-<td><div><pre>java.lang.IllegalArgumentException: Cannot divide by zero
-	at com.ebay.Calculator.div(Calculator.java:6)
-	at com.automation.testcases.CalculatorTest.testInvalidDiv(CalculatorTest.java:24)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace447212746", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace447212746'><pre>java.lang.IllegalArgumentException: Cannot divide by zero
-	at com.ebay.Calculator.div(Calculator.java:6)
-	at com.automation.testcases.CalculatorTest.testInvalidDiv(CalculatorTest.java:24)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-</pre></div></td>
+<td title='com.automation.testcases.DataDrivenTestWithExcel.verifyLoginUnsuccessfulWithInvalidCredentials()'><b>verifyLoginUnsuccessfulWithInvalidCredentials</b><br>Test class: com.automation.testcases.DataDrivenTestWithExcel<br>Parameters: Aidai, Tech Girls</td>
+<td></td>
 <td>0</td>
-<td>com.automation.testcases.CalculatorTest@15b204a1</td></tr>
+<td>com.automation.testcases.DataDrivenTestWithExcel@33afa13b</td></tr>
+<tr>
+<td title='com.automation.testcases.DataDrivenTestWithExcel.verifyLoginUnsuccessfulWithInvalidCredentials()'><b>verifyLoginUnsuccessfulWithInvalidCredentials</b><br>Test class: com.automation.testcases.DataDrivenTestWithExcel<br>Parameters: Taira, Chusi</td>
+<td></td>
+<td>0</td>
+<td>com.automation.testcases.DataDrivenTestWithExcel@33afa13b</td></tr>
+<tr>
+<td title='com.automation.testcases.DataDrivenTestWithExcel.verifyLoginUnsuccessfulWithInvalidCredentials()'><b>verifyLoginUnsuccessfulWithInvalidCredentials</b><br>Test class: com.automation.testcases.DataDrivenTestWithExcel<br>Parameters: Ali, Java</td>
+<td></td>
+<td>0</td>
+<td>com.automation.testcases.DataDrivenTestWithExcel@33afa13b</td></tr>
+<tr>
+<td title='com.automation.testcases.DataDrivenTestWithExcel.verifyLoginUnsuccessfulWithInvalidCredentials()'><b>verifyLoginUnsuccessfulWithInvalidCredentials</b><br>Test class: com.automation.testcases.DataDrivenTestWithExcel<br>Parameters: Me, You</td>
+<td></td>
+<td>0</td>
+<td>com.automation.testcases.DataDrivenTestWithExcel@33afa13b</td></tr>
+<tr>
+<td title='com.automation.testcases.DataDrivenTestWithExcel.verifyLoginUnsuccessfulWithInvalidCredentials()'><b>verifyLoginUnsuccessfulWithInvalidCredentials</b><br>Test class: com.automation.testcases.DataDrivenTestWithExcel<br>Parameters: Madina, Aidana</td>
+<td></td>
+<td>0</td>
+<td>com.automation.testcases.DataDrivenTestWithExcel@33afa13b</td></tr>
+<tr>
+<td title='com.automation.testcases.DataDrivenTestWithExcel.verifyLoginUnsuccessfulWithInvalidCredentials()'><b>verifyLoginUnsuccessfulWithInvalidCredentials</b><br>Test class: com.automation.testcases.DataDrivenTestWithExcel<br>Parameters: Azat, Tech Boys</td>
+<td></td>
+<td>0</td>
+<td>com.automation.testcases.DataDrivenTestWithExcel@33afa13b</td></tr>
+<tr>
+<td title='com.automation.testcases.DataDrivenTestWithExcel.verifyLoginUnsuccessfulWithInvalidCredentials()'><b>verifyLoginUnsuccessfulWithInvalidCredentials</b><br>Test class: com.automation.testcases.DataDrivenTestWithExcel<br>Parameters: Break Master, Meme</td>
+<td></td>
+<td>0</td>
+<td>com.automation.testcases.DataDrivenTestWithExcel@33afa13b</td></tr>
 </table><p>
 </body>
 </html>
