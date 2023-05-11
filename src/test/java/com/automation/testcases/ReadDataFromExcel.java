@@ -11,11 +11,10 @@ public class ReadDataFromExcel {
         XSSFWorkbook workbook = new XSSFWorkbook("src/test/resources/data/Data.xlsx");
         // Open Sheet File
          XSSFSheet sheet = workbook.getSheetAt(0);
-         //Open Row File
-        XSSFRow row = sheet.getRow(0);
-        //Open Cell File
-        XSSFCell cell = row.getCell(0);
-
-        System.out.println(cell.getStringCellValue());
+        for(int i=0; i < sheet.getPhysicalNumberOfRows(); i++){
+            XSSFRow row = sheet.getRow(i);
+            XSSFCell cell   =   row.getCell(0);
+            System.out.println(cell.getStringCellValue());
+        }
     }
 }
