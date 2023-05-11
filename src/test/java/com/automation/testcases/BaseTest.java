@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -16,6 +17,7 @@ public class BaseTest {
     WebDriver driver;
 
     @BeforeMethod
+    @Parameters("browser")
     public void setUp() throws MalformedURLException {
         String platform = "Cloud";
 
