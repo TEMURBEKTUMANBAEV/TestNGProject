@@ -10,6 +10,12 @@
         </run>
     </groups>
 
+    <test name="LoginTest" >
+        <classes>
+            <class name="com.automation.testcases.LoginTest" />
+        </classes>
+    </test>
+
     <test name="Regression Test" >
         <classes>
             <class name="com.automation.testcases.LoginTest"/>
