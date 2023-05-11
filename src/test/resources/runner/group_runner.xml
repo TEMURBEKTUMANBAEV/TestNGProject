@@ -2,6 +2,11 @@
 
 <suite name="Regression Test" verbose="3" parallel="methods" thread-count="3">
 
+
+    <groups>
+        
+    </groups>
+
     <test name="Regression Test" >
         <classes>
             <class name="com.automation.testcases.LoginTest"/>
