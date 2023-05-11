@@ -18,7 +18,7 @@ public class BaseTest {
 
     @BeforeMethod
     @Parameters("browser")
-    public void setUp() throws MalformedURLException {
+    public void setUp(String browser) throws MalformedURLException {
         String platform = "Cloud";
 
 
