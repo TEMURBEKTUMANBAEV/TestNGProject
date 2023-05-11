@@ -4,7 +4,6 @@
 
 
     <test name="LoginTest" >
-        <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="com.automation.testcases.LoginTest" />
         </classes>
