@@ -11,6 +11,7 @@
     </test>
 
     <test name="OtherTest">
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="com.automation.testcases.CartPageTest"/>
             <class name="com.automation.testcases.SearchFunctionalityTest"/>
