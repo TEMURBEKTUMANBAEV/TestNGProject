@@ -22,7 +22,7 @@ public class DataDrivenTest {
     public  Object[][] getInvalidData(){
         String[][] credentials = {
                 {"admin", "admin@123", false},
-                {"admin", "admin123"},
+                {"admin", "admin123", true},
                 {"admin123", "admin123"},
                 {"chirag", "admin123"},
                 {"admin", "@123"},
