@@ -16,11 +16,5 @@
         </classes>
     </test>
 
-    <test name="Regression Test" >
-        <classes>
-            <class name="com.automation.testcases.LoginTest"/>
-            <class name="com.automation.testcases.CartPageTest"/>
-            <class name="com.automation.testcases.SearchFunctionalityTest"/>
-        </classes>
-    </test>
+
 </suite>
