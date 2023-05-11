@@ -27,8 +27,8 @@ public class DataDrivenTest {
                 {"chirag", "admin123",false},
                 {"admin", "@123", false },
                 {"devx", "devx@123",false},
-                {"", "",},
-                {"", "admin123"},
+                {"", "",false},
+                {"", "admin123", false},
 
         };
         return credentials;
