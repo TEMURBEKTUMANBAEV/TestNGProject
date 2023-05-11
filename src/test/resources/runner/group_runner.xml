@@ -4,7 +4,9 @@
 
 
     <groups>
-        
+        <run>
+            
+        </run>
     </groups>
 
     <test name="Regression Test" >
