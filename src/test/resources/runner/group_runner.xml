@@ -5,7 +5,8 @@
 
     <groups>
         <run>
-            
+            <exclude name="Smoke"/>
+         
         </run>
     </groups>
 
