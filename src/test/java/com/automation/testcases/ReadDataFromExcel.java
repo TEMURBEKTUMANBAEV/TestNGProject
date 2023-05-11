@@ -6,7 +6,7 @@ import java.io.File;
 
 public class ReadDataFromExcel {
     public static void main(String[] args) {
-        XSSFWorkbook workbook = new XSSFWorkbook("");
+        XSSFWorkbook workbook = new XSSFWorkbook("data/Data.xlsx");
 
     }
 }
