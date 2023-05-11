@@ -9,7 +9,7 @@ public class DataDrivenTest {
     LoginFeatures loginFeatures = new LoginFeatures();
 
     @Test (dataProvider = "invalidData")
-    public void verifyLoginUnsuccessfulWithInvalidCredentials(String username, String password){
+    public void verifyLoginUnsuccessfulWithInvalidCredentials(String username, String password, boolean value){
 
        // Testing the Method with Test Data
        boolean result = loginFeatures.doLogin(username, password);
@@ -23,7 +23,7 @@ public class DataDrivenTest {
         String[][] credentials = {
                 {"admin", "admin@123", false},
                 {"admin", "admin123", true},
-                {"admin123", "admin123"},
+                {"admin123", "admin123", false},
                 {"chirag", "admin123"},
                 {"admin", "@123"},
                 {"devx", "devx@123"},
