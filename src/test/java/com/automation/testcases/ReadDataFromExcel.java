@@ -15,5 +15,7 @@ public class ReadDataFromExcel {
         XSSFRow row = sheet.getRow(0);
         //Open Cell File
         XSSFCell cell = row.getCell(0);
+
+        System.out.println(cell.getStringCellValue());
     }
 }
