@@ -8,7 +8,9 @@ public class ReadDataFromExcel {
     public static void main(String[] args) throws Exception {
         // Open Excel File
         XSSFWorkbook workbook = new XSSFWorkbook("data/Data.xlsx");
+        // Open Sheet File
          XSSFSheet sheet = workbook.getSheetAt(0);
+         
         XSSFRow row = sheet.getRow(0);
     }
 }
