@@ -1,5 +1,6 @@
 package com.automation.testcases;
 
+import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -13,5 +14,6 @@ public class ReadDataFromExcel {
          //Open Row File
         XSSFRow row = sheet.getRow(0);
         //Open Cell File
+        XSSFCell cell = row.getCell(0);
     }
 }
