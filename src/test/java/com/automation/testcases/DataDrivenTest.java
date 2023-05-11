@@ -20,7 +20,7 @@ public class DataDrivenTest {
 
     @DataProvider (name = "invalidData")
     public  Object[][] getInvalidData(){
-        String[][] credentials = {
+        Object[][] credentials = {
                 {"admin", "admin@123", false},
                 {"admin", "admin123", true},
                 {"admin123", "admin123", false},
