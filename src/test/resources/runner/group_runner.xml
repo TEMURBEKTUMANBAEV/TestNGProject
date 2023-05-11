@@ -16,5 +16,10 @@
         </classes>
     </test>
 
-
+    <test name="OtherTest">
+        <classes>
+            <class name="com.automation.testcases.CartPageTest"/>
+            <class name="com.automation.testcases.SearchFunctionalityTest"/>
+        </classes>
+    </test>
 </suite>
