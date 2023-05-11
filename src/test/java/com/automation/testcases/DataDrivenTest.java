@@ -25,8 +25,8 @@ public class DataDrivenTest {
                 {"admin", "admin123", true},
                 {"admin123", "admin123", false},
                 {"chirag", "admin123",false},
-                {"admin", "@123", },
-                {"devx", "devx@123"},
+                {"admin", "@123", false },
+                {"devx", "devx@123",},
                 {"", ""},
                 {"", "admin123"},
 
